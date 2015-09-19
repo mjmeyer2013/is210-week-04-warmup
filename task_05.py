@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 """This module does some pretty crazy math."""
 
+
 def defaults(my_required, my_optional=True):
-    
     """Declares two parameters.
 
     Args:
@@ -16,6 +16,5 @@ def defaults(my_required, my_optional=True):
     True
     >>> defaults (True,False)
     False
-    """"
-
- return my_optional is my_required
+    """
+    return my_optional is my_required
